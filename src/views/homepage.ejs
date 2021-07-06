@@ -11,5 +11,13 @@
 </head>
 <body>
 <h1> Hello world</h1>
+<div>
+    <h2>Welcome " <%= user.fullname %>"</h2>
+    <div>
+        <form method="POST" action="/logout">
+            <button class="btn btn-primary">Log Out</button>
+        </form>
+    </div>
+</div>
 </body>
 </html>
